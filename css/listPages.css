@@ -1,0 +1,56 @@
+.listPagesInfo{width:100%;}
+#listPages{width:1325px;padding-left:115px;}
+.listPages-title{color:#4e7fc2;height:34px;line-height:34px;margin-top:15px;}
+
+/*listPages 标题栏*/
+.listPages-title a{color:#333;}
+.listPages-title a:hover{color:#ff1a3a;}
+.listPages-title span{color:#999;margin:0 10px;}
+.listPages-left{width:230px;height:831px;}
+
+/*listPages 左 上*/
+.listPages-left .listPages-ltop{width:228px;border:1px solid #e4e4e4;color:#333;}
+.listPages-ltop h3{width:228px;height:36px;line-height:36px; cursor:pointer;font-size:13px;background:url(img/listpages_h3bg.jpg)}
+.listPages-ltop h3 .close{display:inline-block;width:15px;height:14px;margin:10px 10px 0 12px;background:url(img/detail.gif) no-repeat 0 -248px;}
+.listPages-ltop h3 .sl{font-size:12px;color:#999;margin-left:2px;}
+
+/*listPages 左 下*/
+.listPages-left .listPages-lbottom{width:228px;border:1px solid #e4e4e4;margin-top:10px;}
+.listPages-btitle{width:226px;height:33px;line-height:33px;margin:1px;background:url(img/listpages_h3bg.jpg);color:#333;font-weight:bold;text-align:center;border-bottom:1px solid #e4e4e4;font-size:14px;}
+.listPages-bimg{width:208px;height:82px;overflow:hidden;padding:15px 10px;margin-bottom:0;border-bottom:1px dashed #e4e4e4;text-align:center;}
+.lt-img{width:100px;height:82px;text-align:left;}
+.lt-img img{width:82px;heihgt:82px;}
+.lt-name a{height:30px;text-align:center;line-height:16px;color:#666;overflow:hidden;}
+.lt-pric{color:#ff1a3a;text-align:right;margin-top:12px;font-size:14px;font-weight:bold;}
+
+/*右上*/
+.listPages-right{width:960px;}
+.listPages-rtop{width:910px;border:3px solid #f4f4f4;padding-bottom:15px;float:left;margin-left:10px;padding:20px;}
+
+.listPages-rtop #boxdl{width:914px;border-bottom:1px solid #f4f4f4;padding:3px 0;float:left;}
+.listPages-rtop #boxdl dt{width:70px;float:left;text-align:right;color:#333;line-height:24px;font-weight:bold;}
+.listPages-rtop #boxdl dd{display:inline-block;line-height:24px;padding:0 10px;margin-right:3px;}
+.listPages-rtop #boxdl dd a{color:#0066cc;}
+.listPages-rtop #boxdl .more{float:right;}
+.listPages-rtop #boxdl .more a{color:#333;float:right;width:41px;border:1px solid #e0dee0;background:#f7f7f7 url(img/detail.gif) no-repeat -220px -20px;padding-left:5px;}
+.listPages-rtop ul {width:750px;padding-bottom:4px;float:left;padding-left:110px;}
+.listPages-rtop ul li{width:125px;height:20px;float:left;margin-left:20px;padding-top:4px;}
+.listPages-rtop ul li a{color:#0066cc;} 
+.listPages-rtop ul li a:hover{background:#02a3f0;color:#fff;}
+
+/*右下*/
+.listPages-rbottom{width:960px;float:left;margin:10px 0;margin-left:10px;}
+.listPages-rbottom dl{width:214px;float:left;background:#fff;padding:13px;}
+.listPages-rbottom dl:hover{background: #efefef;}
+.listPages-rbottom dl dt{padding:7px;width: 200px;height: 200px;background: #fff;}
+.listPages-rbottom dl .pro-name{line-height:18px;height:36px;overflow:hidden;}
+.listPages-rbottom dl .pro-name a{color:#666;}
+.listPages-rbottom dl .pro-price{color:#ff1a3a;font-size:14px;font-weight: old;margin: 10px 0 3px 0;}
+.listPages-rbottom dl .pro-price span{font-size: 16px;}
+.listPages-rbottom dl .pro-price .zhekou{font-size: 12px;}
+.listPages-rbottom dl .buybtn .gwc{display:inline-block;padding: 0 15px;height: 24px;line-height: 24px;border-radius: 3px;background: #fc1c5a;
+text-align: center;color:#fff;}
+
+.listPages-rbottom dl .buybtn .shc{display:inline-block;padding: 0 15px;height: 24px;line-height: 24px;border-radius: 3px;background: #efefef;
+text-align: center;color:#666;border:1px solid #dfdfdf;}
+

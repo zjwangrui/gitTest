@@ -1,0 +1,101 @@
+
+.headerInfo,.logInfo,.navInfo,.footer{width:100%;}
+#header,#log,#nav,#footer{width:1440px;}
+/*header 左边*/
+#header{width:1440px;height:33px;background:url(img/header_bg.png);}
+#header .header_p{margin-left:60px;color:#666666;display:inline-block;line-height:33px;}
+#header .header_p a{color:#666666;padding-left:10px;}
+
+/*hearder右边*/
+#header_right{float:right;}
+#header_right ul{margin-right:64px;line-height:33px;}
+#header_right ul li{float:left;}
+/*我的账户鼠标移入显示下拉菜单*/
+#header_right ul li .h_self{display:none;}
+#header_right ul li .h_self p{margin-top:-13px;}
+#header_right ul .h_l1:hover{display:block;}
+#header_right ul .h_l1{width:73px;text-align:left;}
+#header_right ul .h_l1 span{display:inline-block;margin-left:5px;}
+
+#header_right ul .h_l2{width:73px;text-align:center;}
+#header_right ul .h_l1 a{margin-left:10px;}
+#header_right ul .h_l1 a,#header_right ul .h_l2 a{color:#666666;}
+#header_right ul .h_l1 .h_self a:hover{color:#f00; text-decoration:underline;}
+#header_right ul .h_l2{border-left:1px solid #dddddd;}
+#header_right ul .h_l3{color:#ff1a3a}
+#header_right ul .h_l3 span{display:inline-block;background:url(img/header_tel.png) no-repeat;width:28px;height:13px;}
+
+/*log 左边*/
+#log{height:90px;}
+#log img{margin-top:15px;padding-left:150px;}
+/*log 中间*/
+#log .log_center {padding-top:22px;margin-left:170px;}
+#log .log_center .inp_search{width:360px;height:30px;border:2px solid #02a3f0;}
+#log .log_center .btn_search{width:65px;height:34px;border:2px solid #02a3f0;background:#02a3f0;}
+#log .log_center p{color:#666666;margin-top:8px;}
+#log .log_center p a{color:#666666;}
+#log .log_center p span a{color:#ff1a3a;}
+#log .log_center p a:hover{color:#ff1a3a;}
+/*log 右边*/
+#log .log_right{width:195px;height:44px;background:url(img/detail.gif) no-repeat 0 -30px; right:54px;top:54px;position:absolute;}
+#log .log_right p{color:#666666;text-align:center;line-height:44px;}
+#log .log_right p strong{color:#ff1a3a;}
+/*nav*/
+#nav{height:40px;background:url(img/nav_bg.png)}
+#nav ul{margin-left:115px;}
+#nav ul li{float:left;text-align:center;height:40px;line-height:40px;}
+#nav ul li a{color:#fff;font-size:16px;}
+#nav ul li a:hover{color:#2ad0ff;}
+#nav .nav_all{width:230px;background:url(img/detail.gif) no-repeat 0 -117px;}
+#nav .nav_index{margin-left:10px;width:92px;}
+#nav .nav_other{width:124px;}
+#nav .nav_pron{width:92px;}
+#nav .nav_else{width:108px;}
+#nav .nav_same a{color:#ff1a3a;}
+/*footer 上*/
+#footer{width:1325px;clear:both;height:200px;background:url(img/f_bg.jpg);margin:30px 0;border-top:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;padding-left:115px;}
+#footer .f-info {width:240px;float:left;padding-left:44px;padding-top:25px;}
+#footer .f-info .tel{width:197px;height:49px;background:url(img/detail.gif) no-repeat 0 -157px;}
+#footer .f-num{width:227px;color:#ff1a3a;font-size:20px;padding-top:8px;font-weight:bold;text-align:right;}
+#footer .f-time{color:#444444;text-align:right;width:227px;}
+#footer .weibo{background:url(img/wb.jpg) no-repeat;width:197px;height:22px;margin-top:10px;font-size:14px;padding-left:30px;font-weight:bold;line-height:22px;}
+#footer .weibo img{float:right;margin-left:6px;}
+#footer .ding{width:227px;margin-top:10px;}
+#footer .ding input{width:167px;height:24px;line-height:24px;background:#fff;border:1px solid #e8e8e8;padding-left:4px;color:#666;}
+#footer .ding img{float:right;}
+#footer .f-ps{color:#999;line-height:22px;padding-left:3px;}
+
+#footer .f-list{float:left;width:100px;padding-left:25px;border-left:1px solid #e1e1e1;height:150px;margin-top:20px;}
+#footer .f-list dt{margin-bottom:14px;}
+#footer .f-list dt a{font-size:16px;color:#444;}
+#footer .f-list dd a{height:22px;line-height:22px;color:#999;}
+#footer .weixin{width:125px;height:125px;background:url(img/wx_bg.jpg) no-repeat 0 130px;padding-top:40px;margin-left:33px;float:left;}
+#footer .weixin img{border:1px solid #e1e1e1;}
+/*footer 下*/
+#f-bottom{clear:both;margin:0 auto;width:880px;height:130px;border-bottom:1px solid #ccc;}
+#f-bottom .fb-dl{width:140px;height:110px;float:left;margin:0 40px;}
+#f-bottom .fb-dl dt{width:108px;height:50px;margin-bottom:10px;margin-left:16px;}
+#f-bottom .fb-dl dd{display:inline-block;text-align:center;width:140px;height:20px;line-height:20px;font-size:13px;color:#444;}
+.beian{height:44px;line-height:44px;color:#444;text-align:center;font-size:14px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

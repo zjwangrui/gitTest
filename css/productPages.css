@@ -1,0 +1,98 @@
+/*全部商品的展示*/
+.banner_left .active{color:#ff1a3a;}
+.banner_left{width:228px;border:1px solid #e7e7e7;background:#f8f8f8;}
+.banner_left dt{display: inline;position: relative;float:left;width:208px;    border: 1px solid #e7e7e7;border-top: none;line-height: 22px;overflow: hidden;
+text-align: left;padding: 13px 0px 6px 20px;background: #f8f8f8;}
+.banner_left dt strong a{font-size:14px;color:#333;}
+.banner_left dt p a{color:#666;}
+.banner_left dt p a:hover{color:#ff1a3a;}
+.banner_left dt b{display:inline-block;width:6px;height:9px;background:url(img/detail.gif) no-repeat -310px -30px;position:absolute;right:20px;top:20px;}
+
+.banner_left .over{background:#fff;border:1px solid #bdbdbd;border-left:2px solid #00adff;border-right:none;margin-left:1px;z-index:2;}
+.banner_left dd{display:none;position:absolute;width:650px; background: #fff;border: 1px solid #bdbdbd;z-index: 1;margin-left:230px}
+.banner_left dd ul{float:left;width:380px;padding:0 20px;}
+.banner_left dd ul li{width: 380px;padding: 10px 0;border-bottom: 1px dotted #ccc;line-height: 22px;overflow: hidden;}
+.banner_left dd ul li strong{float:left;width:70px;font-weight:bold;text-align: left;}
+#nav .banner_left dd ul li strong a{padding:0;color:#444;}
+.banner_left dd ul li div{float: left;width: 310px;}
+#nav .banner_left dd ul li div a{color:#666;}
+
+
+.banner_left dd .pinpai{float:left;width:200px;background:#f8f8f8;padding:15px;padding-left:15px}
+.banner_left dd .pinpai h4{color: #666;border-bottom: 1px solid #666;    line-height: 30px;height: 30px;text-align: left;}
+.banner_left dd .pinpai ul{width: 200px;padding: 10px 0;float: left;}
+.banner_left dd .pinpai ul li{border: none;text-align: left;padding-left: 0;
+font-family: simsun;font-size: 12px;line-height: 22px;float:left;width:100px;}
+#nav .banner_left dd .pinpai ul li a{color:#666;}
+
+/*导航位置*/
+.current{line-height: 34px;color: #999;width: 980px;height: 34px;margin-top: 15px;margin:0 auto;	border-bottom:2px solid #78b5f4;}
+.current a{color:#333;}
+.prodNavTxt{margin:0 10px;}
+.cpname{color: #4e7fc2;margin: 0px;}
+/*产品详情*/
+.part01{width: 980px;margin-top: 15px;}
+.p01-l{width:457px;margin-left:220px;}
+.picIdxBox{float: left;width:72px;height:380px;}
+.p01-l li{width:72px;height:72px;margin-bottom: 5px;cursor:pointer;display:block;}
+.p01-l li img{width:70px;height:70px;border:1px solid #e4e4e4;}
+#pic_box{width:1400px;height:4000px;margin:0px 15px 0px 85px;overflow: hidden;cursor: move;position: absolute;top: 200px;margin-left:-120px;margin-top:-250px}
+#magnifier{position:absolute;visibility:hidden;width:170px;height:170px;border: 1px solid #0069CE;background-color:#EAFFFF;moz-opacity:0.3;opacity:0.3;}
+.p01-r{float: right;width: 503px;position:absolute;right:220px;}
+.p01-r h2{font-size: 16px;color: #333;line-height: 20px;padding: 10px;}
+.cppro{padding:12px 10px 2px 10px;border-top:1px dotted #e4e4e4;width:483px;}
+.pro-name{height:28px;}
+.pro-price{height:28px;}
+.pro-price strong{color:#d11010}
+.pro-price span{padding:0 10px;}
+.pro-name strong{color:#d11010}
+.pro-name b{color:#4063a7;}
+.pro-name span{padding:0 10px;}
+.px{background:url(img/px.png) no-repeat;width:100px;height:12px;display:inline-block;line-height:28px;}
+.pro-name li{float:left;}
+.pro-name li img{display:inline-block;padding:0 10px;height:12px;}
+#boxBuy{width:500px;height:74px;background:#fffcf3;border:1px solid #f5debc;}
+#boxBuy span{line-height:30px;display:inline-block;margin-left:10px;}
+#boxBuy span img{display:inline-block;cursor:pointer; vertical-align:middle;}
+#boxBuy span input{width:20px;height:20px;border:1px solid #cdccc7;text-align:center;margin:0 5px;}
+#boxBuy .gwc{margin-top:18px;padding:0 20px;}
+/*线条*/
+.clrH2{background-color: #e4e4e4;border: none;clear: both;display: block;    float: none;margin: 0;padding: 0;overflow: hidden;height: 2px;width:980px;margin:10px auto;}
+
+#box{width:400px;height:400px;position:relative;margin-left:200px;margin-top:200px;float:left;}
+ .minp{width:400px;height:400px;position:absolute;}
+ #fan{width:200px;height:200px;position:absolute;background:#fff;opacity:0.8;left:0;top:0}
+ #area{width:400px;height:400px;position:absolute;margin-left:600px;margin-top:215px;overflow:hidden;float:left;border:1px solid red;background:#fff;z-index:2;}
+ .maxp{position:absolute;width:400px;height:400px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -17,6 +17,34 @@ a{color:#0080FF;}
 .register-title{width:439px;height:43px;margin-bottom:37px;background:url(img/register-title.png) no-repeat;margin-left:20px;}
 
 
+/*全部商品的展示*/
+.banner_left .active{color:#ff1a3a;}
+.banner_left{width:228px;border:1px solid #e7e7e7;background:#f8f8f8;}
+.banner_left dt{display: inline;position: relative;float:left;width:208px;    border: 1px solid #e7e7e7;border-top: none;line-height: 22px;overflow: hidden;
+text-align: left;padding: 13px 0px 6px 20px;background: #f8f8f8;}
+.banner_left dt strong a{font-size:14px;color:#333;}
+.banner_left dt p a{color:#666;}
+.banner_left dt p a:hover{color:#ff1a3a;}
+.banner_left dt b{display:inline-block;width:6px;height:9px;background:url(img/detail.gif) no-repeat -310px -30px;position:absolute;right:20px;top:20px;}
+
+/*全部商品的展示*/
+.banner_left .over{background:#fff;border:1px solid #bdbdbd;border-left:2px solid #00adff;border-right:none;margin-left:1px;z-index:2;}
+.banner_left dd{display:none;position:absolute;width:650px; background: #fff;border: 1px solid #bdbdbd;z-index: 1;margin-left:230px}
+.banner_left dd ul{float:left;width:380px;padding:0 20px;}
+.banner_left dd ul li{width: 380px;padding: 10px 0;border-bottom: 1px dotted #ccc;line-height: 22px;overflow: hidden;}
+.banner_left dd ul li strong{float:left;width:70px;font-weight:bold;text-align: left;}
+#nav .banner_left dd ul li strong a{padding:0;color:#444;}
+.banner_left dd ul li div{float: left;width: 310px;}
+#nav .banner_left dd ul li div a{color:#666;}
+
+
+.banner_left dd .pinpai{float:left;width:200px;background:#f8f8f8;padding:15px;padding-left:15px}
+.banner_left dd .pinpai h4{color: #666;border-bottom: 1px solid #666;    line-height: 30px;height: 30px;text-align: left;}
+.banner_left dd .pinpai ul{width: 200px;padding: 10px 0;float: left;}
+.banner_left dd .pinpai ul li{border: none;text-align: left;padding-left: 0;
+font-family: simsun;font-size: 12px;line-height: 22px;float:left;width:100px;}
+#nav .banner_left dd .pinpai ul li a{color:#666;}
+
 
 
 

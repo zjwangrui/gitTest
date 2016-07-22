@@ -3,8 +3,84 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>购物车页</title>
+<link rel="stylesheet" href="../css/reset.css" type="text/css" />
+<link rel="stylesheet" href="../css/common.css" type="text/css" />
+<link rel="stylesheet" href="../css/shoppingPage.css" type="text/css" />
 </head>
-
-<body>
+<!--购物车-->
+<div id="cart">
+	<div class="cart-header">
+        <ul class="cart-nav">
+            <li><a href="#">收藏夹</a></li>
+            <li><a href="#">新会员注册</a>/<a href="#">登录</a></li>
+            <li><a href="#">我的账户</a></li>
+            <li><a href="#">收藏本站</a></li>
+        </ul>
+    </div>
+    <div id="cartlist" class="cart-data">
+    	<form>
+        	<table width="948" border="0" cellspacing="0" id="tbShoppingList">
+                <tbody>
+                    <tr class="cart-tip">
+                        <!--<td width="36" height="33">序号</td>-->
+                        <td width="554" height="33">商品名称</td>
+                        <td width="41">规格</td>
+                        <td width="49">一般价</td>
+                        <td width="47">No5价</td>
+                        <td width="29">数量</td>
+                        <td width="59">付款小计</td>
+                        <td width="70">转入收藏夹</td>
+                        <td width="45">删除</td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        <div class="gwcpro">
+        	<span class="proname"><a href="#" ></a></span>
+            <span class="proguige"></span>
+            <span class="yibanprice"></span>
+            <span class="proprice"></span>
+            <span><input class="pronum" type="text" value="" />
+            <span class="prosum"></span>
+            <span class="proshc"></span>
+            <span class="prodel"></span>
+        </div>
+        <div class="amount"><strong>应付商品金额：￥<span id="subPrice" class="font-red">0</span>元</strong></div>
+        
+        
+    </div>
+    
+    <div class="salesp">
+    	<ul class="act">
+        	<li><a href="#" target="_blank">日本BIORE碧柔防晒霜68元</a></li>
+            <li><a href="#" target="_blank">悦诗风吟隔离霜89元</a></li>
+            <li><a href="#" target="_blank">DHC蝶翠诗橄榄卸妆油85元</a></li>
+            <li><a href="#" target="_blank">迪奥甜心小姐女士香水38元</a></li>
+            <div class="clearfix"></div>
+         </ul>
+    </div>
+    <div class="cart-area">
+        <div class="cart-btn-dle">
+            输入兑换券帐号：<input type="text" name="dhqAccount" id="dhqAccount" maxlength="20" >
+            <div id="divExchange"></div>
+            <input id="btnExchange" type="button" value="兑换商品" >
+        </div>
+        <div style="float:left;position:relative;top:5px;margin-right:20px;">
+        	<a href="#">
+            	<img src="../css/img/icon-dle.png" border="0" style="margin-right:5px;display:inline-block;">
+                <span>清空购物车</span>
+            </a>
+        </div>
+        <div class="cart-btn">
+        	<a href="listPages.html"><img src="../css/img/btn-go-on.png" border="0"></a>
+        </div>
+        <div class="cart-btn">
+        	<a href="#"><img src="../css/img/btn-go-sett.png" border="0"></a>
+        </div>
+    </div>
+</div>
+<script src="../assets/jquery-1.12.0.js" type="text/javascript"></script>
+<script src="../js/common.js" type="text/javascript"></script>
+<script src="../js/shoppingPage.js" type="text/javascript"></script>
 </body>
 </html>

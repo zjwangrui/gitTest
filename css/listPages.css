@@ -12,7 +12,12 @@
 .listPages-left .listPages-ltop{width:228px;border:1px solid #e4e4e4;color:#333;}
 .listPages-ltop h3{width:228px;height:36px;line-height:36px; cursor:pointer;font-size:13px;background:url(img/listpages_h3bg.jpg)}
 .listPages-ltop h3 .close{display:inline-block;width:15px;height:14px;margin:10px 10px 0 12px;background:url(img/detail.gif) no-repeat 0 -248px;}
-.listPages-ltop h3 .sl{font-size:12px;color:#999;margin-left:2px;}
+.listPages-ltop h3 .unfold{background:url(img/detail.gif) no-repeat 0 -234px;}
+.listPages-ltop ul{width:154px;border-bottom:1px solid #e4e4e4;padding: 8px 37px;display:none;}
+.listPages-ltop li{line-height: 26px;height: 26px;cursor: pointer;}
+.listPages-ltop li a{color:#333;}
+.listPages-ltop li a:hover{color:#ff1a3a;}
+.listPages-ltop .sl{font-size:12px;color:#999;margin-left:2px;}
 
 /*listPages 左 下*/
 .listPages-left .listPages-lbottom{width:228px;border:1px solid #e4e4e4;margin-top:10px;}
@@ -33,7 +38,8 @@
 .listPages-rtop #boxdl dd a{color:#0066cc;}
 .listPages-rtop #boxdl .more{float:right;}
 .listPages-rtop #boxdl .more a{color:#333;float:right;width:41px;border:1px solid #e0dee0;background:#f7f7f7 url(img/detail.gif) no-repeat -220px -20px;padding-left:5px;}
-.listPages-rtop ul {width:750px;padding-bottom:4px;float:left;padding-left:110px;}
+.listPages-rtop .t-height{height:230px;}
+.listPages-rtop ul {width:750px;padding-bottom:4px;float:left;padding-left:110px;height:98px;overflow:hidden;}
 .listPages-rtop ul li{width:125px;height:20px;float:left;margin-left:20px;padding-top:4px;}
 .listPages-rtop ul li a{color:#0066cc;} 
 .listPages-rtop ul li a:hover{background:#02a3f0;color:#fff;}
@@ -43,8 +49,9 @@
 .listPages-rbottom dl{width:214px;float:left;background:#fff;padding:13px;}
 .listPages-rbottom dl:hover{background: #efefef;}
 .listPages-rbottom dl dt{padding:7px;width: 200px;height: 200px;background: #fff;}
-.listPages-rbottom dl .pro-name{line-height:18px;height:36px;overflow:hidden;}
-.listPages-rbottom dl .pro-name a{color:#666;}
+.listPages-rbottom dl .pro-name{line-height:18px;height:36px;overflow:hidden;cursor:pointer;}
+.listPages-rbottom dl .pro-name a{color:#666; }
+.listPages-rbottom dl .pro-name:hover{color:#ff1a3a;}
 .listPages-rbottom dl .pro-price{color:#ff1a3a;font-size:14px;font-weight: old;margin: 10px 0 3px 0;}
 .listPages-rbottom dl .pro-price span{font-size: 16px;}
 .listPages-rbottom dl .pro-price .zhekou{font-size: 12px;}
@@ -54,3 +61,28 @@ text-align: center;color:#fff;}
 .listPages-rbottom dl .buybtn .shc{display:inline-block;padding: 0 15px;height: 24px;line-height: 24px;border-radius: 3px;background: #efefef;
 text-align: center;color:#666;border:1px solid #dfdfdf;}
 
+.banner_left .active{color:#ff1a3a;}
+.banner_left{width:228px;border:1px solid #e7e7e7;background:#f8f8f8;}
+.banner_left dt{display: inline;position: relative;float:left;width:208px;border: 1px solid #e7e7e7;border-top: none;line-height: 22px;overflow: hidden;text-align: left;padding: 13px 0px 6px 20px;background: #f8f8f8;}
+.banner_left dt strong a{font-size:14px;color:#333;}
+.banner_left dt p a{color:#666;}
+.banner_left dt p a:hover{color:#ff1a3a;}
+.banner_left dt b{display:inline-block;width:6px;height:9px;background:url(img/detail.gif) no-repeat -310px -30px;position:absolute;right:20px;top:20px;}
+
+/*全部商品的展示*/
+.banner_left .over{background:#fff;border:1px solid #bdbdbd;border-left:2px solid #00adff;border-right:none;margin-left:1px;z-index:2;}
+.banner_left dd{display:none;position:absolute;width:650px; background: #fff;border: 1px solid #bdbdbd;z-index: 1;margin-left:230px}
+.banner_left dd ul{float:left;width:380px;padding:0 20px;}
+.banner_left dd ul li{width: 380px;padding: 10px 0;border-bottom: 1px dotted #ccc;line-height: 22px;overflow: hidden;}
+.banner_left dd ul li strong{float:left;width:70px;font-weight:bold;text-align: left;}
+#nav .banner_left dd ul li strong a{padding:0;color:#444;}
+.banner_left dd ul li div{float: left;width: 310px;}
+#nav .banner_left dd ul li div a{color:#666;}
+
+
+.banner_left dd .pinpai{float:left;width:200px;background:#f8f8f8;padding:15px;padding-left:15px}
+.banner_left dd .pinpai h4{color: #666;border-bottom: 1px solid #666;    line-height: 30px;height: 30px;text-align: left;}
+.banner_left dd .pinpai ul{width: 200px;padding: 10px 0;float: left;}
+.banner_left dd .pinpai ul li{border: none;text-align: left;padding-left: 0;
+font-family: simsun;font-size: 12px;line-height: 22px;float:left;width:100px;}
+#nav .banner_left dd .pinpai ul li a{color:#666;}

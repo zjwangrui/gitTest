@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name=”viewport” content=”width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no” />
+
+		<title></title>
+		<style>
+			*{margin:0;padding:0}
+			.article1{
+				width:100%;
+				float: left;
+			}
+			.article1 section{
+				float: left;
+				height:50px;
+			}
+			.article1 section:nth-of-type(1){
+				background-color:chocolate;
+				width: 33.3%;
+			}
+			.article1 section:nth-of-type(2){
+				background-color:aqua;
+				width: 33.3%;
+			}
+			.article1 section:nth-of-type(3){
+				background-color:cadetblue;
+				width: 33.3%;
+			}
+			.article2{
+				width: 100%;
+				display: flex;
+			}
+			.article2 section{
+				height:50px;
+			}
+			.article2 section:nth-of-type(1){
+				background-color:chocolate;
+				flex: 1;
+			}
+			.article2 section:nth-of-type(2){
+				background-color:aqua;
+				flex: 1;
+			}
+			.article2 section:nth-of-type(3){
+				background-color:cadetblue;
+				flex: 1;
+			}
+			
+			
+			.article3{
+				width: 600px;
+				display: flex;
+			}
+			.article3 section{
+				height:50px;
+			}
+			.article3 section:nth-of-type(1){
+				background-color:chocolate;
+				flex: 1;
+			}
+			.article3 section:nth-of-type(2){
+				background-color:aqua;
+				flex: 1;
+			}
+			.article3 section:nth-of-type(3){
+				background-color:cadetblue;
+				flex: 1;
+				animation: 1s ;
+				transform: ;
+			}
+		</style>
+	</head>
+	<body>
+		<p>百分比的方法</p>
+		<article class="article1">
+			<section>1</section>
+			<section>2</section>
+			<section>3</section>
+		</article>
+		<p>fiex固定宽度方法</p>
+		<article class="article3">
+			<section>1</section>
+			<section>2</section>
+			<section>3</section>
+		</article>
+		<p>fiex100%方法</p>
+		<article class="article2">
+			<section>1</section>
+			<section>2</section>
+			<section>3</section>
+		</article>
+		
+		<p>fiex-box改变顺序</p>
+		<article class="article4">
+			<section>1</section>
+			<section>2</section>
+			<section>3</section>
+		</article>
+	</body>
+</html>
